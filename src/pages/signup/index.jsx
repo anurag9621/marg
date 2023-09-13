@@ -99,14 +99,19 @@ function Signup() {
                 required
               />
               <br />
-    
+
               <label for="psw">
                 <b>Class</b>
               </label>
               <br />
               <select name="class">
+                <option value="class-6th">CLASS 6</option>
+                <option value="class-7th">CLASS 7</option>
+                <option value="class-8th">CLASS 8</option>
                 <option value="class-9th">CLASS 9</option>
                 <option value="class-10th">CLASS 10</option>
+                <option value="class-11th">CLASS 11</option>
+                <option value="class-12th">CLASS 12</option>
               </select>
               <br />
               <button type="submit">Register</button>
