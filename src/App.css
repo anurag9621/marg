@@ -1,38 +1,104 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  color: white;
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html {
+  background-color: #FE5F55;
+  height: 100%;
+  width: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+  width: 100%;
+  height: 100%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+.fullscreen-fullbox {
   display: flex;
-  flex-direction: column;
+  justify-content: space-evenly;
+  height: 100%;
+  width: 100%;
+}
+
+.left-half-box {
+  width: 50%;
+  height: 100%;
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  flex-direction: column;
+}
+
+.right-half-box {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.left-half-box img {
+  height: 4rem
+}
+
+.logo {
+  font-size: 5rem;
   color: white;
+  font-family: 'Koulen', cursive;
+}
+.logint-other-apps{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+
+}
+.login-with-other-auth{
+  width: 100%;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.logint-other-apps img{
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  margin: 2%;
+}
+.registration-page{
+  width: 100%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.registration-page a{
+  display: flex;
+  
+}
+.registration-page a p {
+  margin-right: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.heading-for-registration{
+  font-size: 2rem;
 }
