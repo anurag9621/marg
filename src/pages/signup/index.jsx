@@ -31,7 +31,10 @@ function Signup() {
           <div className="heading-for-registration">Registration</div>
           <br />
           <br />
-          <form action="/action_page.php" method="post">
+          {/* Add action to the form  
+          
+          */}
+          <form action="" method="post">
             <div class="container">
               <label for="name">
                 <b>Name</b>
