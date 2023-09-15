@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lavishly+Yours&display=swap');
 
 * {
   margin: 0;
@@ -7,7 +8,7 @@
   list-style: none;
   text-decoration: none;
   color: white;
-  
+
 }
 
 html {
@@ -60,36 +61,42 @@ body {
   color: white;
   font-family: 'Koulen', cursive;
 }
-.logint-other-apps{
+
+.logint-other-apps {
   display: flex;
   width: 100%;
   align-items: center;
   justify-content: center;
 
 }
-.login-with-other-auth{
+
+.login-with-other-auth {
   width: 100%;
-  display:flex;
+  display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 }
-.logint-other-apps img{
+
+.logint-other-apps img {
   width: 2rem;
   height: 2rem;
   border-radius: 50%;
   margin: 2%;
 }
-.registration-page{
+
+.registration-page {
   width: 100%;
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: center;
 }
-.registration-page a{
+
+.registration-page a {
   display: flex;
-  
+
 }
+
 .registration-page a p {
   margin-right: 10px;
 }
@@ -99,6 +106,60 @@ input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
-.heading-for-registration{
+
+.heading-for-registration {
   font-size: 2rem;
+}
+
+.congartulation-big-box {
+  margin: 2%;
+}
+
+.side-logo-box {
+  font-size: 3rem;
+  color: white;
+  font-family: 'Koulen', cursive;
+  text-shadow: 5px 4px 8px rgba(0, 0, 0, 0.25);
+}
+
+.congaratulation-text {
+  font-family: 'Lavishly Yours', cursive;
+  text-shadow: 5px 4px 8px rgba(0, 0, 0, 0.25);
+  font-weight: 400;
+  font-size: 4rem;
+}
+.congartulation-box{
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  flex-direction: column;
+}
+.congaratulation-box-img img{
+  width: 5rem;
+}
+.congartulation-hobbies-box form input{
+  border-radius: 15px;
+    border: 1px solid #FFF;
+    background: rgba(217, 217, 217, 0.40);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+    width: 40%;
+  
+}
+.congartulation-hobbies-box form{
+  border: none;
+    display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+}
+.congartulation-hobbies-box{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center;
+
+}
+.congartulation-hobbies-box form button{
+  width: 40%;
+  border-radius: 32.5px;
 }
