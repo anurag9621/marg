@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lavishly+Yours&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -12,7 +12,7 @@
 }
 
 html {
-  background-color: #FE5F55;
+
   height: 100%;
   width: 100%;
 }
@@ -32,6 +32,7 @@ body {
   justify-content: space-evenly;
   height: 100%;
   width: 100%;
+    background-color: #FE5F55;
 }
 
 .left-half-box {
@@ -112,7 +113,10 @@ input::-webkit-inner-spin-button {
 }
 
 .congartulation-big-box {
-  margin: 2%;
+  padding: 2%;
+  width: 100%;
+  height: 100%;
+    background-color: #FE5F55;
 }
 
 .side-logo-box {
@@ -137,7 +141,7 @@ input::-webkit-inner-spin-button {
 .congaratulation-box-img img{
   width: 5rem;
 }
-.congartulation-hobbies-box form input{
+.congartulation-hobbies-box form select{
   border-radius: 15px;
     border: 1px solid #FFF;
     background: rgba(217, 217, 217, 0.40);
@@ -160,6 +164,146 @@ input::-webkit-inner-spin-button {
 
 }
 .congartulation-hobbies-box form button{
-  width: 40%;
+  width: 20%;
   border-radius: 32.5px;
+}
+.profile-big-box{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.profile-uppr-box{
+  width: 100%;
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #FE5F55;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  padding: 1%;
+}
+.profile-toggle-logo-logout-box{
+  width: 100%;
+  height: 30%;
+  display: flex;
+  justify-content: space-between;
+}
+.toggle-and-logo-box{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 11%;
+  
+}
+.toggle-box ul li{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.first-toggle{
+  width: 1.7rem;
+  background-color: #D9D9D9;
+  height: .2rem;
+  margin-bottom: .4rem;
+  border-radius: 1rem;
+}
+.sec-toggle{
+  width: 1.1rem;
+    background-color: #D9D9D9;
+    height: .2rem;
+    margin-bottom: .4rem;
+    border-radius: 1rem;
+}
+.logo-box-profile{
+  font-size: 3rem;
+    color: white;
+    font-family: 'Koulen', cursive;
+    text-shadow: 5px 4px 8px rgba(0, 0, 0, 0.25);
+}
+
+.name-class-number-profile-photo-box{
+  width: 100%;
+  height: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.profile-bottom-box{
+  width: 100%;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+ padding-top: 2%;
+}
+.logout-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.name-profile{
+  color: #FFF;
+    font-family: Inter;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+
+}
+.class-profile{
+  color: #FFF;
+    font-family: Inter;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.number-profile{
+  color: #FFF;
+    font-family: Inter;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.profile-photo-box img{
+border-radius: 50%;
+  border: 1px solid #FFF;
+  width: 10rem;
+  box-shadow: 0px 0px 9px 4px rgba(0, 0, 0, 0.25);
+}
+.subject-box{
+  width: 100%;
+  height: 30%;
+  color: black;
+  margin-bottom: 5%;
+}
+.subject-box p{
+  color: #000;
+    font-family: Inter;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  padding-left: 2%;
+}
+.Future-suggestions-and-Roadmaps-box{
+  width: 100%;
+    height: 30%;
+    color: black;
+      margin-bottom: 2%;
+}
+.Future-suggestions-and-Roadmaps-box p {
+  padding-left: 2%;
+  color: #000;
+  font-family: Inter;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
 }
