@@ -7,6 +7,7 @@ import "swiper/css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css/pagination";
 import { Pagination } from "swiper/modules";
+import { Link } from 'react-router-dom';
 function Scroll(props) {
   return (
     <>
@@ -21,7 +22,9 @@ function Scroll(props) {
         className="mySwiper"
       >
         <SwiperSlide>
-          <img src={props.Img1}></img>
+          <Link to="/profile">
+            <img src={props.Img1}></img>
+            </Link>
         </SwiperSlide>
         <SwiperSlide>
           <img src={props.Img2}></img>
