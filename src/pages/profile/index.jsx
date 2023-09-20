@@ -8,6 +8,8 @@ import Img4 from "../../images/img4.jpeg";
 import Img6 from "../../images/img6.jpeg";
 import Img7 from "../../images/img6.jpeg";
 import Img8 from "../../images/img7.jpeg";
+import Nev from "./components/nev";
+import "./index.css";
 function UserInfo(props) {
   return (
     <>
@@ -26,6 +28,9 @@ function ImageProfile(props) {
     </>
   );
 }
+function togglesidebar() {
+  document.getElementById("nev-bar").classList.toggle("active");
+}
 
 function Profile() {
   return (
@@ -36,7 +41,7 @@ function Profile() {
             <div className="toggle-and-logo-box">
               <div className="toggle-box">
                 <ul>
-                  <li>
+                  <li className="toggle_btn" onClick={togglesidebar}>
                     <samp className="first-toggle"></samp>
 
                     <samp className="sec-toggle"></samp>
@@ -54,7 +59,11 @@ function Profile() {
           </div>
           <div className="name-class-number-profile-photo-box">
             <div className="name-class-number-box">
-              <UserInfo name="Anurag Pandey" class="1st" number="1234567890" />
+              <UserInfo
+                name="Anurag Pandey"
+                className="1st"
+                number="1234567890"
+              />
             </div>
             <div className="profile-photo-box">
               <ImageProfile userImage={ProfileImage} />
@@ -90,6 +99,9 @@ function Profile() {
           </div>
         </div>
         <div className="bottom-right-chat-bot-box"></div>
+        <div className="nev-nev">
+          <Nev />
+        </div>
       </div>
     </>
   );
