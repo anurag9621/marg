@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./index.css";
 import { Link } from "react-router-dom";
 import Min from "../../images/min.png";
@@ -7,7 +7,9 @@ import Google from "../../images/google.png";
 
 import Call from "../../images/call.png";
 
+
 function Signup() {
+  
   return (
     <>
       <div className="fullscreen-fullbox">
@@ -34,7 +36,7 @@ function Signup() {
           {/* Add action to the form  
           
           */}
-          <form action="" method="post">
+          <form action="/signup" method="post">
             <div class="container">
               <label for="name">
                 <b>Name</b>

@@ -6,6 +6,7 @@ import Signup from "./pages/signup";
 import Congartulation from "./pages/congartulation";
 import Profile from "./pages/profile";
 import Nev from "./pages/profile/components/nev";
+import Question from "./pages/question";
 function App() {
   return (
     <>
@@ -14,7 +15,8 @@ function App() {
         <Route exact path="/Registration" element={<Signup />} />
         <Route exact path="/congartulation" element={<Congartulation />} />
         <Route exact path="/profile" element={<Profile />} />
-        <Route exact path="/nev" element={<Nev />} />
+        <Route exact path="/question" element={<Question />} />
+
       </Routes>
     </>
   );
